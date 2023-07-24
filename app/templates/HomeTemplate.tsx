@@ -4,7 +4,7 @@ import { CarouselMolecule } from '../components/molecules';
 
 export async function HomeTemplate() {
     return (
-      <main id="home-template" className="flex flex-col p-[2rem] h-screen">
+      <main id="home-template" className="flex flex-col p-[2rem]">
         <h1 className="flex justify-center text-4xl">DEPARTAMENTOS EN RENTA</h1>
         <br></br>
         <section>
@@ -14,7 +14,9 @@ export async function HomeTemplate() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
           <div>
             <h1>DIRECCIÓN</h1>
-            <h2>Av. El Trabajo, San Pedro Tepetitlán Acolman, Estado de México, 55894.</h2>
+            <h2>
+              <a href='https://goo.gl/maps/T9ytVrtFM4v5AkPu9' target='blank'>Av. El Trabajo, San Pedro Tepetitlán Acolman, Estado de México, 55894.</a>
+            </h2>
           </div>
           <div style={{ display: 'flex', gap: '1rem' }}>
             <iframe
