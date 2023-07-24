@@ -28,11 +28,10 @@ export async function HomeTemplate() {
             </iframe>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%' }}>
               <div style={{ display: 'flex', gap: '1rem' }}>
-                <div style={{ width: '25%' }}>
+                <div style={{ width: '50%' }}>
                   <h1>RENTA MENSUAL</h1>
                   <h2>$2,000.00 MXN</h2>
-                </div>
-                <div style={{ width: '25%' }}>
+                  <br></br>
                   <h1>CONTACTO</h1>
                   <h2>Email: martigabriel021272@gmail.com</h2>
                   <h2>Cel: +52 55 7389 5873</h2>
