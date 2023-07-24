@@ -1,13 +1,11 @@
 'use client'
 
-import { Button, TextInput, Textarea } from 'flowbite-react';
-import { HiMail } from 'react-icons/hi';
 import { CarouselMolecule } from '../components/molecules';
 
 export async function HomeTemplate() {
     return (
       <main id="home-template" className="flex flex-col p-[2rem] h-screen">
-        <h1 className="flex justify-center text-4xl">DEPARTAMENTO EN RENTA</h1>
+        <h1 className="flex justify-center text-4xl">DEPARTAMENTOS EN RENTA</h1>
         <br></br>
         <section>
             <CarouselMolecule/>
@@ -36,7 +34,7 @@ export async function HomeTemplate() {
                   <h2>Email: martigabriel021272@gmail.com</h2>
                   <h2>Cel: +52 55 7389 5873</h2>
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '0.6rem', width: '50%' }}>
+                {/* <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '0.6rem', width: '50%' }}>
                   <h1>ENVIA UN MENSAJE</h1>
                   <div className="max-w-md" style={{ width: '80%' }}>
                     <TextInput
@@ -67,7 +65,7 @@ export async function HomeTemplate() {
                     />
                   </div>
                   <Button color="success" style={{ width: '10rem' }}>Enviar</Button>
-              </div>
+              </div> */}
               </div>
             </div>
           </div>
