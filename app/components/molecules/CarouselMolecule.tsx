@@ -5,12 +5,12 @@ import Image from 'next/image';
 
 export async function CarouselMolecule() {
     return (
-        <Carousel>
+        <Carousel style={{ height: '40vh' }}>
           <Image
             alt="..."
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             width={20}
-            height={20}
+            height={300}
           />
           <Image
             alt="..."
