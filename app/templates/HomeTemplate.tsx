@@ -30,7 +30,7 @@ export async function HomeTemplate() {
               <div style={{ display: 'flex', gap: '1rem' }}>
                 <div style={{ width: '50%' }}>
                   <h1>RENTA MENSUAL</h1>
-                  <h2>$2,000.00 MXN</h2>
+                  <h2>$2,500.00 MXN</h2>
                   <br></br>
                   <h1>CONTACTO</h1>
                   <h2>Email: martigabriel021272@gmail.com</h2>
